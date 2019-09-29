@@ -21,6 +21,10 @@ Documents/apache-tomcat-9.0.26/webapps/mywebapp/WEB-INF/classes
 Documents/prjs/mywebapp_dev/index.html
 ```
 
+1. html 파일 복사하기
+```
+copy index.html "..\apache-tomcat-9.0.26\webapps\mywebapp\"
+```
 1. 접속해보기
 ```
 localhost:8080/mywebapp
@@ -78,5 +82,7 @@ Documents\apache-tomcat-9.0.26\work\Catalina\localhost\mywebapp\org\apache\jsp\i
 ```
 
 1. Java EE 7 APIs
+
 [Java EE 7 APIs](https://docs.oracle.com/javaee/7/api/toc.htm)
+
 [Class HttpJspBase](https://tomcat.apache.org/tomcat-4.0-doc/jasper/docs/api/org/apache/jasper/runtime/HttpJspBase.html)
