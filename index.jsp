@@ -11,8 +11,11 @@
         Hello World!
     </h1>
     <h1>안녕하세요!!</h1>
+    <%= 오늘 날짜는 %>
+    <br>
     <% 
     out.println(new java.util.Date());
     %>
+    <br>
 </body>
 </html>

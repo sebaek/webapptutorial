@@ -16,7 +16,6 @@ public class HelloWorld extends HttpServlet {
         out.println("<h1>Hello World!</h1>");
         out.println("<h1>안녕하세요.</h1>");
         out.println("<p>서버 현재시간 : " + new Date() + "</p>");
-        
         out.println("</body>");
         out.println("</html>");
     }
